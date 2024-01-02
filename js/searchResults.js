@@ -65,8 +65,8 @@ export const clearStatsLine = () => {
 export const setStatsLine = (numberOfResults) => {
     const statLine = document.getElementById("stats");
     if (numberOfResults) {
-        statLine.textContent = `Displaying ${numberOfResults} results`;
+        statLine.textContent = `Displaying ${numberOfResults} results.`;
     } else {
-        statLine.textContent = "Sorry, no results"
+        statLine.textContent = "Sorry, no results."
     }
 }
