@@ -53,7 +53,7 @@ const createResultText = (result) => {
     resultText.classList.add("resultText")
     const resultDescription = document.createElement("p")
     resultDescription.classList.add("resultDescription");
-    resultDescription.textContent = result.textContent
+    resultDescription.textContent = result.text
     resultText.append(resultDescription)
     return resultText
 }
